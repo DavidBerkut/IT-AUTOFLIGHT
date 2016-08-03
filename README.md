@@ -1,2 +1,2 @@
 # IT-AUTOFLIGHT
-Still in progress. Not final. Install guide is coming soon.
+Still in progress. Not final. See Help.txt for basic help.

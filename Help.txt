@@ -1,0 +1,28 @@
+In -set or -main files
+
+Inside <systems> </systems>
+
+    <autopilot>
+	  <name>IT-AUTOFLIGHT</name>
+      <path>Aircraft/Aircraft_Folder_Name/Systems/it-autoflight.xml</path>
+    </autopilot>
+	<autopilot>
+	  <name>Autopilot helpers</name>
+	  <path>Aircraft/Generic/generic-autopilot-helper.xml</path>
+	</autopilot>
+	
+	Inside <nasal> </nasal>
+	
+	<it2>
+      <file>Aircraft/Aircraft_Folder_Name/Nasal/autoflight.nas</file>
+      <file>Aircraft/Aircraft_Folder_Name/Nasal/autoflight-logic.nas</file>
+	</it2>
+	
+In any nasal file
+
+setlistener("/sim/signals/fdm-initialized", func {
+	it2.ap_init();
+	var autopilot = gui.Dialog.new("sim/gui/dialogs/autopilot/dialog", "Aircraft/Aircraft_Folder_Name/Systems/autopilot-dlg.xml");
+});
+
+I will expand on this later. -- it0uchpods
