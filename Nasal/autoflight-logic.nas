@@ -1,5 +1,5 @@
 # IT AUTOFLIGHT Logic by Joshua Davidson (it0uchpods/411).
-# V3.0.0 Beta 2
+# V3.0.0 Beta 4
 
 var ap_logic_init = func {
 	setprop("/it-autoflight/ap_master", 0);
@@ -60,7 +60,7 @@ setlistener("/it-autoflight/fd_mastersw", func {
   if (fdmas == 0) {
 	setprop("/it-autoflight/fd_master", 0);
   } else if (fdmas == 1) {
-	setprop("/it-autoflight/fd_master", 0);  # Because FD is not yet implemented. Will be 1 later.
+	setprop("/it-autoflight/fd_master", 1);
   }
 });
 

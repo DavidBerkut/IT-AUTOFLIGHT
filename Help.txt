@@ -13,15 +13,15 @@ Inside <systems> </systems>
 	
 	Inside <nasal> </nasal>
 	
-	<it2>
+	<itaf>
       <file>Aircraft/Aircraft_Folder_Name/Nasal/autoflight.nas</file>
       <file>Aircraft/Aircraft_Folder_Name/Nasal/autoflight-logic.nas</file>
-	</it2>
+	</itaf>
 	
 In any nasal file
 
 setlistener("/sim/signals/fdm-initialized", func {
-	it2.ap_init();
+  	itaf.ap_init();				
 	var autopilot = gui.Dialog.new("sim/gui/dialogs/autopilot/dialog", "Aircraft/Aircraft_Folder_Name/Systems/autopilot-dlg.xml");
 });
 
