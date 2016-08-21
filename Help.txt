@@ -14,8 +14,7 @@ Inside <systems> </systems>
 	Inside <nasal> </nasal>
 	
 	<itaf>
-      <file>Aircraft/Aircraft_Folder_Name/Nasal/autoflight.nas</file>
-      <file>Aircraft/Aircraft_Folder_Name/Nasal/autoflight-logic.nas</file>
+      <file>Aircraft/Aircraft_Folder_Name/Nasal/it-autoflight.nas</file>
 	</itaf>
 	
 In any nasal file
