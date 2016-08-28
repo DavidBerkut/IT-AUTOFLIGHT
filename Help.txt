@@ -8,10 +8,6 @@ Inside <systems> </systems>
 	  <name>IT-AUTOFLIGHT</name>
       <path>Aircraft/Aircraft_Folder_Name/Systems/it-autoflight.xml</path>
     </autopilot>
-	<autopilot>
-	  <name>Autopilot helpers</name>
-	  <path>Aircraft/Generic/generic-autopilot-helper.xml</path>
-	</autopilot>
 	
 	Inside <nasal> </nasal>
 	
