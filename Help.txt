@@ -1,7 +1,5 @@
 In -set or -main files
 
-
-
 Inside <systems> </systems>
 
     <autopilot>
@@ -15,11 +13,32 @@ Inside <systems> </systems>
       <file>Aircraft/Aircraft_Folder_Name/Nasal/it-autoflight.nas</file>
 	</itaf>
 	
-In any nasal file
+In any nasal file (not it-autoflight.nas):
 
-setlistener("/sim/signals/fdm-initialized", func {
-  	itaf.ap_init();				
+setlistener("/sim/signals/fdm-initialized", func {	
+  	itaf.ap_init();			
 	var autopilot = gui.Dialog.new("sim/gui/dialogs/autopilot/dialog", "Aircraft/Aircraft_Folder_Name/Systems/autopilot-dlg.xml");
 });
+
+If you need to customize umin and umax for the AP to fly correctly, and want to keep drop in upgrades, add this to the -set or -main files.
+Must be below or outside <sim> </sim>
+If you do not know how to tune umin and umax, I don't recommend adding this.
+<it-autoflight>
+	<settings>
+		<no-generics>1</no-generics>
+		<roll>
+			<umin></umin>
+			<umax></umax>
+		</roll>
+		<pitch>
+			<umin></umin>
+			<umax></umax>
+		</pitch>
+		<flch>
+			<umin></umin>
+			<umax></umax>
+		</flch>
+	</settings>
+</it-autoflight>
 
 I will expand on this later. -- it0uchpods
