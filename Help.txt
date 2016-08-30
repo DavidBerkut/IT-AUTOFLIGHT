@@ -22,13 +22,14 @@ setlistener("/sim/signals/fdm-initialized", func {
 
 If you need to customize umin and umax for the AP to fly correctly, and want to keep drop in upgrades, add this to the -set or -main files.
 Must be below or outside <sim> </sim>
-If you do not know how to tune umin and umax, I don't recommend adding this.
+If you do not know how to tune umin and umax or KP, I don't recommend adding this.
 <it-autoflight>
 	<settings>
 		<no-generics>1</no-generics>
 		<roll>
 			<umin>-0.50</umin>
 			<umax>0.50</umax>
+			<kp>0.10</kp>
 		</roll>
 		<pitch>
 			<umin>-0.25</umin>
