@@ -1,0 +1,24 @@
+Not all versions of IT-AUTOFLIGHT are drop in compatable.
+
+I recommend checking Help.txt EVERY time you upgrade ITAF, to make sure the aircraft has all the correct code.
+
+Here I will list the versions where you must change something, see Help.txt.
+
+You can see the version in the first line of Nasal/it-autoflight.nas
+
+
+Milestone 1 (No drop in from Beta 12 and earlier)
+
+Beta 12
+
+Beta 10 (No drop in from Beta 8 and earlier)
+
+Beta 8
+
+Beta 6
+
+Beta 4
+
+Beta 2
+
+Beta 0 (No drop in from V2.0 release and earlier)
