@@ -7,6 +7,8 @@ Here I will list the versions where you must change something, see Help.txt.
 You can see the version in the first line of Nasal/it-autoflight.nas
 
 
+Milestone 2 Build 18 (No drop in from Milestone 1 and earlier)
+
 Milestone 1 (No drop in from Beta 12 and earlier)
 
 Beta 12
