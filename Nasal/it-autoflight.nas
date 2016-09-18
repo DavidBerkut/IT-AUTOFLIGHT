@@ -320,7 +320,7 @@ var retardchk = func {
 
 var atoffchk = func{
   var altpos = getprop("/position/altitude-agl-ft");
-  if (altpos <= 10) {
+  if (altpos <= 15) {
 	setprop("/it-autoflight/at_mastersw", 0);
 	atofft.stop();
   }
