@@ -6,6 +6,10 @@ Inside <systems> </systems>
 	<name>IT-AUTOFLIGHT</name>
 	<path>Aircraft/Aircraft_Folder_Name/Systems/it-autoflight.xml</path>
 </autopilot>
+<autopilot>
+	<name>IT-AUTOTHRUST</name>
+	<path>Aircraft/Aircraft_Folder_Name/Systems/it-autothrust.xml</path>
+</autopilot>
 	
 Inside <nasal> </nasal>
 	
