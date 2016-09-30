@@ -43,6 +43,12 @@ MD-11 uses flaps 35 at least, so here the land-flap property is 0.7.
 If you need to customize umin and umax for the AP to fly correctly, and want to keep drop in upgrades, add this to the -set or -main files.
 Must be below or outside <sim> </sim>
 If you do not know how to tune umin and umax or Kp, I don't recommend adding this.
+Roll: Adjust Heading Hold/Select, LNAV, and VORLOC.
+Pitch: Adjust Altitude Capture/Hold, Vertical Speed, and Glideslope.
+Flch: Adjust Flight Level Change. In most cases, the same values from Pitch can be used.
+GS: Different than the value in Pitch. This value operates the First Stage of Glideslope hold.
+Increase if the airplane does not correct enough. Decrease if airplane corrects too much.
+
 <it-autoflight>
 	<settings>
 		<no-generics>1</no-generics>
@@ -50,6 +56,7 @@ If you do not know how to tune umin and umax or Kp, I don't recommend adding thi
 			<umin>-0.50</umin>
 			<umax>0.50</umax>
 			<kp>0.10</kp>
+			<kp-vorloc>0.10</kp-vorloc>
 		</roll>
 		<pitch>
 			<umin>-0.30</umin>

@@ -6,7 +6,13 @@ Here I will list the versions where you must change something, see Help.txt.
 
 You can see the version in the first line of Nasal/it-autoflight.nas
 
-Milestone 2 Build 20 (No drop in from Milestone 1 and earlier)
+Starting from Build 20, the thing that breaks drop ins will be stated in each update with the * symbol in front of it.
+
+
+Milestone 2 Build 22 (No drop in from Build 20 and earlier)
+* Ability to adjust VOR/LOC seperatly from regular roll. 
+
+Milestone 2 Build 20 (No drop in from Build 18 and earlier)
 * A/T in a seperate file now, so custom A/T systems can be used.
 
 Milestone 2 Build 18 (No drop in from Milestone 1 and earlier)
