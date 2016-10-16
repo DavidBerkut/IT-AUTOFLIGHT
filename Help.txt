@@ -25,7 +25,10 @@ setlistener("/sim/signals/fdm-initialized", func {
 	setprop("/it-autoflight/settings/retard-enable", 1);  # Enable or disable automatic autothrottle retard.
 	setprop("/it-autoflight/settings/retard-ft", 50);     # Add this to change the retard altitude, default is 50ft AGL.
 	setprop("/it-autoflight/settings/land-flap", 0.6);    # Define the landing flaps here. This is needed for autoland, and retard.
+	setprop("/it-autoflight/settings/land-enable", 0);    # Enable or disable automatic landing.
 });
+
+Note: Autoland and AT retard require correct /position/gear-agl-ft. This is done automatically in Yasim, not in JSB. You will need to do that yourself.
 
 For the flaps setting, open the -set or -main files and look for: <flaps>
 You should see something like this (from MD-11):

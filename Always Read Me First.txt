@@ -8,7 +8,10 @@ You can see the version in the first line of Nasal/it-autoflight.nas
 
 Starting from Build 20, the thing that breaks drop ins will be stated in each update with the * symbol in front of it.
 
-Milestone 2 Build 44F (No drop in from Build 22 and earlier)
+Milestone 2 Build 50X (No drop in from Build 45W and earlier)
+*Autolanding function
+
+Milestone 2 Build 44F and 45W (No drop in from Build 22 and earlier)
 * New annunciator system in dialog, optional in cockpits, LOC and ILS arm props changed, update retard and other listener/timer based systems.
 
 Milestone 2 Build 22 (No drop in from Build 20 and earlier)
